@@ -22,3 +22,4 @@ source venv/bin/activate
 ```
 pip install flask
 ```
+FRONTEND_URL="*" BACKEND_URL="*" docker run --rm -p 4567:4567 -it backend-flask
