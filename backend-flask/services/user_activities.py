@@ -1,9 +1,10 @@
 from datetime import datetime, timedelta, timezone
 from aws_xray_sdk.core import xray_recorder
-
+import logging
 
 class UserActivities:
   def run(user_handle):
+    LOGGER.info("user activity")
     #segment = xray_recorder.begin_segment('user_activities')
     try:
       model = {
