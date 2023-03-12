@@ -12,3 +12,8 @@
 
 
 ![image](https://user-images.githubusercontent.com/106790801/224580376-d89395f5-69e7-4f46-bc3d-67a19c675868.png)
+
+# UI changes
+![image](https://user-images.githubusercontent.com/106790801/224580720-6314693a-3568-4af3-bddd-cb71873ed2e6.png)
+
+https://github.com/rgrajanin/aws-bootcamp-cruddur-2023/commit/15df3f3c8502be8b1e634c333966857bce47c8e5 - Commit for code changes
