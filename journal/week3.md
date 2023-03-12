@@ -8,5 +8,7 @@
 ![image](https://user-images.githubusercontent.com/106790801/224580201-7a04e0fb-a422-4604-af08-0d720aaee11e.png)
 # recovery page
 ![image](https://user-images.githubusercontent.com/106790801/224580411-7a781166-60b5-42c9-acde-0d31b82c4005.png)
+![image](https://user-images.githubusercontent.com/106790801/224580569-48a6de64-6047-4c39-b65c-cc2d1e4fac74.png)
+
 
 ![image](https://user-images.githubusercontent.com/106790801/224580376-d89395f5-69e7-4f46-bc3d-67a19c675868.png)
