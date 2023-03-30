@@ -1,8 +1,8 @@
 -- this file was manually created
-INSERT INTO public.users (display_name, handle, cognito_user_id)
+INSERT INTO public.users (display_name, handle,email, cognito_user_id)
 VALUES
   ('Andrew Brown', 'andrewbrown','andrew@examprotest.com' ,'MOCK'),
-  ('guru raghav', 'gururaghav','guru_raghav@testtest.com' ,'MOCK'),
+  ('guru raghav', 'gururaghav','guru_raghav1@outlook.com' ,'MOCK'),
   ('Andrew Bayko', 'bayko','bayko@examprotest.com' ,'MOCK');
 
 INSERT INTO public.activities (user_uuid, message, expires_at)
