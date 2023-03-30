@@ -3,8 +3,8 @@ INSERT INTO public.activities(
     message,
     expires_at
   )
-VALUES(
-    SELECT
+VALUES(  
+    (SELECT
       uuid
     from
       public.users
@@ -12,6 +12,6 @@ VALUES(
       users.handle = %(handle)s
     LIMIT 1
   ), 
-  %(message) s, 
+  %(message)s, 
   %(expires_at)s
 ) RETURNING uuid;
