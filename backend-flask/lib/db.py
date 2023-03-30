@@ -52,6 +52,10 @@ class Db:
     try:
       with self.pool.connection() as conn:
         cur = conn.cursor()
+        print("sql\n")
+        print(sql)
+        print("params\n")
+        print(params)
         cur.execute(sql,params)
         if is_returning_id:
           returning_id = cur.fetchone()[0]
