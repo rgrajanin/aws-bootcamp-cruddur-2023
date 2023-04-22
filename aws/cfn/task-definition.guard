@@ -1,0 +1,13 @@
+aws_ecs_cluster_configuration {
+    rules = [
+        {
+            rue = "task_definition_encryption"
+            description - "Ensure task definitions are encryted"
+            level = "error"
+            action {
+                type = "disallow"
+                message = "Task definitions in the Amazon ECS..."
+            }
+        }
+    ]
+}
