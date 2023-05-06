@@ -96,25 +96,25 @@ def create_message(client,message_group_uuid, created_at, message, my_user_uuid,
     users = get_user_uuids()
 
     create_message_group(
-    client=ddb,
-    message_group_uuid=message_group_uuid,
-    my_user_uuid=users['my_user']['uuid'],
-    other_user_uuid=users['other_user']['uuid'],
-    other_user_handle=users['other_user']['handle'],
-    other_user_display_name=users['other_user']['display_name'],
-    last_message_at=now.isoformat(),
-    message="this is a filler message"
+        client=ddb,
+        message_group_uuid=message_group_uuid,
+        my_user_uuid=users['my_user']['uuid'],
+        other_user_uuid=users['other_user']['uuid'],
+        other_user_handle=users['other_user']['handle'],
+        other_user_display_name=users['other_user']['display_name'],
+        last_message_at=now.isoformat(),
+        message="this is a filler message"
     )
 
     create_message_group(
-    client=ddb,
-    message_group_uuid=message_group_uuid,
-    my_user_uuid=users['other_user']['uuid'],
-    other_user_uuid=users['my_user']['uuid'],
-    other_user_handle=users['my_user']['handle'],
-    other_user_display_name=users['my_user']['display_name'],
-    last_message_at=now.isoformat(),
-    message="this is a filler message"
+        client=ddb,
+        message_group_uuid=message_group_uuid,
+        my_user_uuid=users['other_user']['uuid'],
+        other_user_uuid=users['my_user']['uuid'],
+        other_user_handle=users['my_user']['handle'],
+        other_user_display_name=users['my_user']['display_name'],
+        last_message_at=now.isoformat(),
+        message="this is a filler message"
     )
 
     conversation = """
@@ -230,7 +230,7 @@ def create_message(client,message_group_uuid, created_at, message, my_user_uuid,
             key = 'my_user'
             message = lines[i].replace('Person 1: ', '')
         elif lines[i].startswith('Person 2: '):
-            key = 'my_user'
+            key = 'other_user'
             message = lines[i].replace('Person 2: ', '')
         else:
             print(lines[i])
