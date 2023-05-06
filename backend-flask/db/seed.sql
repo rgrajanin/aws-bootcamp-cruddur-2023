@@ -1,10 +1,10 @@
 -- this file was manually created
 INSERT INTO public.users (display_name, handle,email, cognito_user_id)
 VALUES
-  ('Andrew Brown', 'andrewbrown','andrew@examprotest.com' ,'MOCK'),
-  ('guru raghav', 'guru_raghav','guru_raghav1@outlook.com' ,'MOCK'),
-  ('Andrew Bayko', 'bayko','bayko@examprotest.com' ,'MOCK'),
-  ('Londo Mollari', 'londo','lmollari@centari.com' ,'MOCK');
+  ('Andrew Brown', 'andrewbrown','gururajan.raghavendran1+andrew@gmail.com' ,'MOCK'),
+  ('guru raghav', 'guru_raghav','gururajan.raghavendran1@gmail.com' ,'MOCK'),
+  ('Andrew Bayko', 'bayko','gururajan.raghavendran1+bayco@gmail.com' ,'MOCK'),
+  ('Londo Mollari', 'londo','gururajan.raghavendran1+londo@gmail.com' ,'MOCK');
 
 INSERT INTO public.activities (user_uuid, message, expires_at)
 VALUES
